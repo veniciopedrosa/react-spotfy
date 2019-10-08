@@ -1,0 +1,75 @@
+.list-tracks {
+  padding: 0;
+  margin: 1rem;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+img.icon-play, img.icon-pause {
+  width: .6rem;
+  filter: invert(1);
+}
+
+.track-info {
+  width: 90%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album-info img {
+  width: 50%;
+}
+
+.album-info strong {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.album-info p {
+  color: #CCC;
+  font-size: .8rem;
+}
+
+.track-control {
+  border: .08rem #FFF solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .album-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+  }
+
+  .album-info {
+    justify-content: center;
+    width: 50%;
+  }
+  .list-tracks {
+    padding: 0;
+    margin: 1rem;
+    width: 50%;
+  }
+}

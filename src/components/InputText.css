@@ -1,0 +1,19 @@
+.input-label {
+  color: #999;
+  margin: .5rem;
+  font-weight: normal;
+  font-size: .8rem;
+}
+
+.input-text {
+  width: 100%;
+  border: none;
+  border-bottom: .1rem solid #999;
+  background: none;
+  height: 5vh;
+  font-size: 2rem;
+  color: #999;
+  font-weight: 500;
+  padding-bottom: .5rem;
+  outline: none;
+}

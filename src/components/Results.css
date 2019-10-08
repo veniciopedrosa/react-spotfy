@@ -1,0 +1,41 @@
+.list-container {
+  margin: 1rem auto;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
+}
+
+.album-subtitle {
+  font-size: .8rem;
+  color: #CCC;
+}
+
+.album {
+  float: right;
+  position: relative;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+@media only screen and (min-width: 768px) {
+  .list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .album {
+    float: none;
+    right: auto;
+    transform: none;
+    margin-bottom: 1rem;
+  }
+
+  .album-image:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}

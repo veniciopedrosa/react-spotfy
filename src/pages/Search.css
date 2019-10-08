@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.album-image {
+  max-width: 8rem;
+}

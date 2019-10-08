@@ -1,0 +1,10 @@
+img.logo {
+  width: 4rem;
+  top: 1rem;
+  left: 1rem;
+}
+
+header {
+  position: relative;
+  width: 100%;
+}
